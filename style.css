@@ -1,0 +1,92 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(./asset/undraw_graduation_re_gthn.svg);
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px auto;
+  margin-top: 30px;
+  text-transform: uppercase;
+  color: #e7e7e7;
+  text-shadow: 0px 4px 7px #070807 ;
+}
+img {
+  width: 120px;
+  height: 120px;
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+}
+.container {
+  width: 600px;
+  margin: auto;
+  padding: 20px;
+  position: relative;
+}
+.area-komputer {
+  width: 560px;
+  height: 250px;
+  margin: 5px;
+  background-color: lightblue;
+  background: linear-gradient(to bottom, rgba(179,220,237,1)0%, rgba(41,184,229,1)100%);
+  position: relative;
+  padding-top: 40px;
+  box-sizing: border-box;
+  border-radius: 40px 40px 0px 0px;
+}
+.area-player {
+  width: 560px;
+  height: 250px;
+  margin: 5px;
+  background:rgb(192,73,198);
+  background:linear-gradient(to bottom rgba(192,73,198,1) 0%, rgba(217,0,255,1) 100%);
+  position: relative;
+  border-radius: 0px 0px 40px 40px;
+}
+.info {
+  width: 150px;
+  height: 60px;
+  border: 5px solid #f1d375;
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+  top: 50%;
+  margin-top: -30px;
+  background-color: #ffff;
+  z-index: 1;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 60px;
+  color: #347fff;
+  font-size: 26px;
+  text-shadow: 1px 1px 1px rgba(0,0,0.3);
+}
+ul {
+  padding: 50px;
+  padding-left: 55px;
+  padding-top: 60px;
+  display: flex;
+}
+li {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 15px;
+}
+.gajah, 
+.semut,
+.orang {
+  transition: .3s;
+  position: relative;
+  top: 0;
+  cursor: pointer;
+}
+.gajah:hover,
+.semut:hover,
+.orang:hover, .active {
+box-shadow: 0px 0px 10px 5px #aef44d;
+}
